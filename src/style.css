@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid red;
+}
+  
+  body {
+    font-family: "arial";
+    padding: 20px;
+    min-height: 500vh;
+    background: rgb(180,58,58);
+background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(253,155,29,1) 50%, rgba(252,107,69,1) 100%);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #D66853;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+  }
+  
+  .next-section {
+    height: auto;
+    object-fit: cover;
+    width: 40vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50vh;
+    background-color: #D66853;
+    border-radius: 8px;
+  }
+  
